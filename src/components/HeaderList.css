@@ -1,0 +1,34 @@
+
+.headerList {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px;
+    background-color: #007bff;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .headerListItem {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    color: #333;
+    cursor: pointer;
+    padding: 10px;
+  }
+  
+  .headerListItem:hover {
+    color: #d9dfe6;
+  }
+  
+  .headerListItem svg {
+    font-size: 24px;
+    margin-bottom: 5px;
+  }
+  
+  .headerListItem span {
+    font-size: 14px;
+    font-weight: 500;
+  }
+  
